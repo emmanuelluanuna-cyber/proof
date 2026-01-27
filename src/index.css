@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-background text-white font-sans antialiased;
+}
+
+.gradient-overlay {
+  background: radial-gradient(circle at top, rgba(59, 130, 246, 0.3), transparent 55%),
+    radial-gradient(circle at bottom, rgba(15, 23, 42, 0.9), #020617);
+}
+
+.section-padding {
+  @apply px-6 sm:px-8 lg:px-16 xl:px-24;
+}
+
+.container-tight {
+  @apply max-w-6xl mx-auto;
+}
+
