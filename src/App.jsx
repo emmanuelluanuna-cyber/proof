@@ -82,7 +82,7 @@ function HeroSection() {
     <section className="relative min-h-screen flex items-center section-padding">
       <div className="absolute inset-0 overflow-hidden">
         <img
-          src={heroImage}
+          src="{heroImage}"
           alt="Athlète en pleine séance d'entraînement intense"
           className="w-full h-full object-cover brightness-[0.4]"
         />
@@ -129,7 +129,7 @@ function HeroSection() {
             <div className="relative max-w-sm w-full rounded-3xl overflow-hidden border border-neutral-800/80 bg-neutral-950/60 backdrop-blur-md shadow-[0_20px_60px_rgba(0,0,0,0.8)]">
               <div className="relative h-64 sm:h-72">
                 <img
-                  src="./assets/Entrainement.png"
+                  src="../assets/Entrainement.png"
                   alt="Entraînement intense en salle de sport"
                   className="w-full h-full object-cover"
                 />
@@ -244,7 +244,7 @@ function SolutionSection() {
           <div className="absolute -inset-6 rounded-[2.25rem] bg-gradient-to-tr from-accent/25 via-transparent to-transparent blur-3xl opacity-70" />
           <div className="relative rounded-[1.75rem] overflow-hidden border border-neutral-800 bg-neutral-950/70 backdrop-blur-xl shadow-[0_18px_70px_rgba(15,23,42,0.9)]">
             <img
-              src="./assets/athlete_concentre.png"
+              src="../assets/athlete_concentre.png"
               alt="Athlète concentré pendant une séance de coaching"
               className="w-full h-80 sm:h-96 object-cover"
             />
@@ -335,7 +335,7 @@ function AboutSection() {
             <div className="absolute -inset-1 rounded-3xl bg-gradient-to-tr from-accent/50 via-transparent to-transparent blur-xl opacity-70" />
             <div className="relative w-32 h-32 sm:w-40 sm:h-40 rounded-3xl overflow-hidden border border-neutral-700 bg-neutral-900 shadow-[0_18px_40px_rgba(0,0,0,0.9)]">
               <img
-                src="./assets/maxime.jpg"
+                src="../assets/maxime.jpg"
                 alt="Maxime Domas, coach sportif"
                 className="w-full h-full object-cover"
               />
