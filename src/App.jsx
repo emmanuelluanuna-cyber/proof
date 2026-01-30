@@ -23,7 +23,7 @@ const coachImage =
   
       try {
         // 2. Remplacez l'URL ci-dessous par le lien que Formspree vous a donné
-        const response = await fetch("https://formspree.io/f/xkorpdda", {
+        const response = await fetch("https://formspree.io/f/xqebwnjj", {
           method: "POST",
           body: new FormData(e.target),
           headers: {
